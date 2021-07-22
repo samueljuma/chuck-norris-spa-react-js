@@ -30,7 +30,7 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
                     {joke.value} 
                 </h1>
 
-                <div className="font-bold">
+                <div className="font-bold p-3">
                     Time Createds: {joke.created_at} 
                 </div>
                 <img src={joke.icon_url} alt="img" className="center"  />
