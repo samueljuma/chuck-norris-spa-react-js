@@ -6,7 +6,7 @@ function Header(){
         <header className='bg-gray-200 border-b p-5 flex justify-between items-center'>
             <CategoriesView/>
             <span className="font-bold">
-                CHUCK NORRIS SPA
+                CHUCK NORRIS JOKES SPA
             </span>
             
         </header>

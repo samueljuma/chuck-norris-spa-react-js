@@ -2,20 +2,21 @@ import {
   Route, 
   BrowserRouter as Router, 
   Switch } from "react-router-dom";
+import Display from "./Components/Display";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
-import Home from "./Components/Home";
 
 
 function App() {
   return (
     <div className='relative pb-10 min-h-screen'>
         <Router>
+
           <Header/>
           <div className='p-3'>
               <Switch>
-                <Route exact path="/">
-                  <Home/>
+                <Route path="/jokes=:category">
+                  <Display/>
                 </Route>
               </Switch>
           </div>
