@@ -1,0 +1,76 @@
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function CategoriesView(){
+    return(
+        <div className="overflow-y-auto mt-20 fixed bg-white top-0 h-full left-0 w-1/5 shadow p-3">
+            <div className='font-bold py-3 text-center'>
+            Categories
+        </div>
+        <ul>
+             {/* //bg-blue-500 text-white p-2 flex justify-center */}
+            <li>
+                <Link 
+                    to="/"
+                    className=" text-center rounded bg-blue-500 py-2 border-t block">Animal Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Career Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Celebrity Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Dev Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Fashion Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Science Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Political Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Religion Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Music Facts
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to="/"
+                    className="text-center rounded bg-blue-500 py-2 border-t-2 block">Sports Facts
+                </Link>
+            </li>
+        </ul>
+        </div>
+    )
+}
+export default CategoriesView
