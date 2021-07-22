@@ -9,7 +9,7 @@ import Header from "./Components/Header";
 
 function App() {
   return (
-    <div className='relative pb-10 min-h-screen'>
+    <div className='relative pb-10 min-h-screen items-center'>
         <Router>
 
           <Header/>
