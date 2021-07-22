@@ -1,7 +1,8 @@
 # chuck-norris-spa-react-js
-<b>The Digital  Apprenticeship Program Cohort I Software Development Challenge Solution</b>``
 
-`The app is an SPA solution to the cohort I software development solution from the Digital Apprenticeship Program sponsored by <b>UK Kenya Tech Hub, The ThunderBird Scool of global management and UKaid</b>`
+####The Digital  Apprenticeship Program Cohort I Software Development Challenge Solution
+
+> The app is an SPA solution to the cohort I software development solution from the Digital Apprenticeship Program sponsored by <b>UK Kenya Tech Hub, The ThunderBird Scool of global management and UKaid</b>`
 
 ### Motivation
 * Am looking up to join the Cohort II Digital Apprenticeship Program. I therefore decided to take on the old challenge as part of prepping for technical inteviews if all goes well. 
