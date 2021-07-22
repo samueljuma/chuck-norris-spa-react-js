@@ -1,6 +1,6 @@
 # chuck-norris-spa-react-js
 
-####The Digital  Apprenticeship Program Cohort I Software Development Challenge Solution
+#### The Digital  Apprenticeship Program Cohort I Software Development Challenge Solution
 
 > The app is an SPA solution to the cohort I software development solution from the Digital Apprenticeship Program sponsored by <b>UK Kenya Tech Hub, The ThunderBird Scool of global management and UKaid</b>`
 
@@ -8,7 +8,7 @@
 * Am looking up to join the Cohort II Digital Apprenticeship Program. I therefore decided to take on the old challenge as part of prepping for technical inteviews if all goes well. 
 
 ### Tech Stack
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+* This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 * The stack includes
 	* [React Js][1] - A free and open-source front-end JavaScript library for building user interfaces or UI components.
 	* [Tailwindcss][2] - A utility-first CSS framework for rapidly building custom user interfaces
