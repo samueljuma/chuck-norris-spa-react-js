@@ -2,10 +2,10 @@
 
 #### The Digital  Apprenticeship Program Cohort I Software Development Challenge Solution
 
-> The app is an SPA solution to the cohort I software development solution from the Digital Apprenticeship Program sponsored by <b>UK Kenya Tech Hub, The ThunderBird Scool of global management and UKaid</b>`
+> The app is an SPA solution to the cohort I software development solution from the Digital Apprenticeship Program sponsored by <b>UK Kenya Tech Hub, The ThunderBird School of Global Management and UKaid</b>`
 
 ### Motivation
-* Am looking up to join the Cohort II Digital Apprenticeship Program. I therefore decided to take on the old challenge as part of prepping for technical inteviews if all goes well. 
+* Am looking forward to join the Cohort II Digital Apprenticeship Program. I therefore decided to take on the old challenge as part of prepping for technical inteviews.
 
 ### Tech Stack
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

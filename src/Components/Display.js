@@ -15,7 +15,7 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
     useEffect(()=>{
         axios.get(url)
         .then(response => {
-            setJoke(response.data)
+            setJoke(response.data)       
         })
     },[url])
 
@@ -35,7 +35,7 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
                 </div>
                 <img src={joke.icon_url} alt="img" className="center"  />
             </div>
-        </div>
+        </div>    
     }
      return(
          <div className='mt-20 fixed bg-white top-0 right-0 w-4/5 h-full shadow p-3'>
