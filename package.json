@@ -48,9 +48,11 @@
     ]
   },
   "devDependencies": {
-    "autoprefixer": "^10.3.1",
+    "autoprefixer": "^10.3.3",
     "gh-pages": "^3.2.3",
+    "npm-run-all": "^4.1.5",
     "postcss": "^8.3.6",
+    "postcss-nested": "^5.0.6",
     "tailwindcss": "^2.2.6"
   }
 }
