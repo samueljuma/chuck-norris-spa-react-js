@@ -45,7 +45,7 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
                         icon = {faVolleyballBall}
                     />
                 </span>
-                 Its Fun Time. Click on any Category to Get Chuck-Norris Joke
+                 Its Fun Time. Click on any Category to Get A Chuck-Norris Joke
             </div>
             {content}
          </div>
