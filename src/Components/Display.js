@@ -38,8 +38,8 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
         </div>    
     }
      return(
-         <div className='overflow-y-auto mt-20 fixed bg-white top-0 right-0 w-3/5 sm:w-4/5 h-full shadow p-3'>
-            <div className="m-4 text-center uppercase text-blue-900 font-bold">
+         <div className='overflow-y-auto mt-20 fixed bg-white top-0 right-0 w-3/5 sm:w-4/5 h-4/5 shadow p-3'>
+            <div className="mb-8 m-4 text-center uppercase text-blue-900 font-bold">
                 <span className="text-xl p-4">
                     <FontAwesomeIcon
                         icon = {faVolleyballBall}

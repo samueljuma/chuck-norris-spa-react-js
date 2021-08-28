@@ -4,72 +4,102 @@ import { Link } from 'react-router-dom'
 function CategoriesView(){
 
     const categories = ["animal", "career", "celebrity", "dev", "fashion", "science", "political","religion"
-                            ,"music", "sport"];
+                            ,"music", "sport","explicit","food","history","money","movie",];
 
     return(
-        <div className="overflow-hidden overflow-y-auto mt-20 fixed bg-white top-0 h-full left-0 w-2/5 sm:w-1/5 shadow p-5">
+        <div className="overflow-hidden overflow-y-auto mt-20 fixed bg-white top-0 left-0 w-2/5 h-4/5 sm:w-1/5 shadow p-5">
             <div className='font-bold py-3 text-center'>
-            Categories
+            Fact Categories
         </div>
         <ul>
             <li>
                 <Link 
                     to={`/jokes=${categories[0]} `}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t block">Animal Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t block">Animal
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[1]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Career Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Career
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[2]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Celebrity Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Celebrity
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[3]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Dev Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Dev 
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[4]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Fashion Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Fashion 
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[5]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Science Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Science
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[6]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Political Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Political
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[7]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Religion Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Religion
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[8]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Music Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Music
                 </Link>
             </li>
             <li>
                 <Link 
                     to={`/jokes=${categories[9]}`}
-                    className="text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Sports Facts
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Sports
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to={`/jokes=${categories[10]}`}
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Explicit
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to={`/jokes=${categories[11]}`}
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Food
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to={`/jokes=${categories[12]}`}
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">History
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to={`/jokes=${categories[13]}`}
+                    className="hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Money
+                </Link>
+            </li>
+            <li>
+                <Link 
+                    to={`/jokes=${categories[14]}`}
+                    className="mb-8 hover:text-black text-white text-center rounded bg-blue-900 py-2 border-t-2 block">Movie
                 </Link>
             </li>
         </ul>
