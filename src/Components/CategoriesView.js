@@ -7,7 +7,7 @@ function CategoriesView(){
                             ,"music", "sport"];
 
     return(
-        <div className="overflow-hidden overflow-y-auto mt-20 fixed bg-white top-0 h-full left-0 w-1/5 shadow p-5">
+        <div className="overflow-hidden overflow-y-auto mt-20 fixed bg-white top-0 h-full left-0 w-2/5 sm:w-1/5 shadow p-5">
             <div className='font-bold py-3 text-center'>
             Categories
         </div>

@@ -31,21 +31,21 @@ import { faVolleyballBall } from '@fortawesome/free-solid-svg-icons'
                 </h1>
 
                 <div className="font-bold p-3">
-                    Time Createds: {joke.created_at} 
+                    Time Created: {joke.created_at} 
                 </div>
                 <img src={joke.icon_url} alt="img" className="center"  />
             </div>
         </div>    
     }
      return(
-         <div className='mt-20 fixed bg-white top-0 right-0 w-4/5 h-full shadow p-3'>
+         <div className='overflow-y-auto mt-20 fixed bg-white top-0 right-0 w-3/5 sm:w-4/5 h-full shadow p-3'>
             <div className="m-4 text-center uppercase text-blue-900 font-bold">
                 <span className="text-xl p-4">
                     <FontAwesomeIcon
                         icon = {faVolleyballBall}
                     />
                 </span>
-                 Its Fun Time. Click on any Category to Get A Chuck-Norris Joke
+                 Its Fun Time. Click on any Category in the Left to Get a Chuck-Norris Joke
             </div>
             {content}
          </div>
